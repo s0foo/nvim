@@ -10,3 +10,6 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("i", "jk", "<Esc>")
+
+vim.keymap.set("n", "<leader>sh", ":split<CR><C-w>w")
+vim.keymap.set("n", "<leader>sv", ":vsplit<CR><C-w>w")
