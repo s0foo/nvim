@@ -13,3 +13,7 @@ vim.keymap.set("i", "jk", "<Esc>")
 
 vim.keymap.set("n", "<leader>sh", ":split<CR><C-w>w")
 vim.keymap.set("n", "<leader>sv", ":vsplit<CR><C-w>w")
+
+vim.keymap.set('n', '<leader>sc', function()
+  vim.cmd('edit ~/.scratch')
+end, { desc = "Open scratch file" })
